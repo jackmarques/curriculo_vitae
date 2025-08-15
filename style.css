@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin-bottom: 5%;
+}
+header{
+    text-align: center;
+}
+h1{
+    border-bottom: 3.5px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+address{
+    line-height: 23px;
+    margin-bottom: 3rem;
+}
+main{
+    margin: 0 10%;
+}
+main p{
+    margin-left: 1.4rem;
+}
+p{
+    font-size: 1.1em;
+}
+ul{
+    list-style-position: inside;
+    /* padding-left: 0.3rem; */
+    list-style-type: square;
+    padding-left: 0.8rem;
+}
+h2{
+    margin-bottom: 0.5rem;
+}
+.qualificacao li{
+    margin-bottom: 0.2rem;
+    font-size: 18px;
+}
+li h3{
+    display: inline;
+}
+.mod{
+    list-style: none;
+}
+.modulos::before{
+    list-style: none;
+    content: "➢";
+    padding-left: 3rem;
+    margin-right: 0.6rem;
+} 
+section{
+    margin-bottom: 2rem;
+}
+.formacao .label, .experiencia_profissional .empresa{
+    margin-bottom: 1rem;
+}
+.empresa p{
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 380px){
+    h1{
+        font-size: 21px;
+        width: 80%;
+    }
+    address{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    ul li{
+        font-size: 16px;
+    }
+    .modulos::before{
+        padding-left: 1.5rem;
+    } 
+    .objetivo p{
+        text-align: justify;
+    }
+
+}
